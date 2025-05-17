@@ -1,0 +1,20 @@
+{{ define "main" }}
+{{ $videos := ($.Resources.Get "video.yaml") | transform.Unmarshal }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  <div id="video-collection">
+    {{ range $videos }}
+      <div>
+        <div style="border: 1px solid seagreen; border-radius: 1em; padding: 1em;">
+          <div style="aspect-ratio: 16 / 9;"></div>
+          <p><b>{{ .title }}</b></p>
+          <p style="font-size: 0.85em">{{ .description }}</p>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+
+</div>
+
+{{ end }}

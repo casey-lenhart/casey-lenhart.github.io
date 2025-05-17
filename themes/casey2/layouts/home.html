@@ -1,0 +1,38 @@
+{{ define "main" }}
+<script>
+document.body.onload = () => {
+const img = new Image()
+img.onload = () => {
+  document.getElementById('main-image-container').appendChild(img)
+}
+img.src = "https://raw.githubusercontent.com/casey-lenhart/casey-lenhart.github.io/main/public/IMG_2290.jpg"
+}
+</script>
+  <div>
+    <div id="main-content">
+      <div id="main-content-image-container" style="position: relative; height: 18rem;">
+        <div style="position: absolute; inset: 0; background-color: #57bbf4;
+        opacity: 0.8;
+        background-image:  linear-gradient(135deg, #4187dd 25%, transparent 25%), linear-gradient(225deg, #4187dd 25%, transparent 25%), linear-gradient(45deg, #4187dd 25%, transparent 25%), linear-gradient(315deg, #4187dd 25%, #57bbf4 25%);
+        background-position:  8px 0, 8px 0, 0 0, 0 0;
+        background-size: 16px 16px;
+        background-repeat: repeat; rotate: -4deg; border-radius: 1rem;">
+        </div>
+        <div style="position: absolute; inset: 0;" id="main-image-container">
+        </div>
+      </div>
+      <div style="grid-column: span 2 / span 2;">
+        <b style="font-size: 3rem; font-family: 'EB Garamond', Garamond, serif;">Casey Lenhart</b>
+        <p style="margin-top: 0.5rem;">
+          {{ .Content }}
+        </p>
+      </div>
+    </div>
+  </div>
+  {{/*{{ range site.RegularPages }}
+    <h2>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </h2>
+    {{ .Summary }}
+  {{ end }}*/}}
+{{ end }}

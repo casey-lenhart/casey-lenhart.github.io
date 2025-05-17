@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{ $tracks := ($.Resources.Get "audio.yaml") | transform.Unmarshal }}
+{{ $descriptions := apply $tracks "collections.Index" "." "description" }}
+{{ $descriptions = apply $descriptions "transform.Markdownify" "." }}
+{{ with resources.Get "js/audio.tsx" }}
+  {{$opts := dict
+    "minify" (not hugo.IsDevelopment)
+    "sourceMap" (cond hugo.IsDevelopment "external" "")
+    "params" (dict "tracks" $tracks "descriptions" $descriptions)
+    "shims" (dict "react" "js/shims/react.js"  "react-dom" "js/shims/react-dom.js")
+  }}
+  {{ with . | js.Build $opts }}
+    <script src="https://unpkg.com/react@18.3.1/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js"></script>
+    {{ if hugo.IsDevelopment }}
+      <script src="{{ .RelPermalink }}"></script>
+    {{ else }}
+      {{ with . | fingerprint }}
+        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+<div class="container">
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+  <div id="audio-player">
+
+  </div>
+
+</div>
+
+{{ end }}
