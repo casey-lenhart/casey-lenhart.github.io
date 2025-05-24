@@ -1,9 +1,55 @@
-- title: Song 1
-  year: 2025
-  description: Description for Song 1
-- title: Song 2
-  year: 2024
-  description: Description for Song 2
-- title: Song 3
+- title: Crashing With Love
   year: 2023
-  description: Description for Song 3
+  description: Main theme from the film, _Crashing_.
+  link: https://storage.googleapis.com/casey_site/Crashing%20With%20Love%20(NEWMIX4).mp3
+- title: Hi, Earl!
+  year: 2024
+  description: Music cue from the film, _Call Earl_.
+  link: https://storage.googleapis.com/casey_site/Hi%2C%20Earl!_MASTER1.mp3
+- title: Still Alive
+  year: 2024
+  description: "Collaboration with [Saniyé](https://www.letsplaysaniye.com/) for the SCL Musical Storytelling Series."
+  link: https://storage.googleapis.com/casey_site/Still%20Alive.mp3
+- title: Golem Intro
+  year: 2025
+  description: Intro theme for the Golem D&D podcast.
+  link: https://storage.googleapis.com/casey_site/Golem%20Intro%202%20(master).mp3
+- title: Glory Days/Dueling Blades
+  year: 2024
+  description: Unused cue for the film, _Untouchable_.
+  link: https://storage.googleapis.com/casey_site/Glory%20Days_Dueling%20Blades_MASTER1.mp3
+- title: Itkins Get Results
+  year: 2024
+  description: Unused Cue for the film, _Untouchable_.
+  link: https://storage.googleapis.com/casey_site/Itkins%20Get%20Results_MASTER_1.mp3
+- title: Schadenfreude
+  year: 2023
+  description: Music cue from the film, _Dinner by Breakfast_.
+  link: https://storage.googleapis.com/casey_site/Schadenfreude%20(MASTER).mp3
+- title: Oliver's Theme
+  year: 2023
+  description: Music Cue from the film, _Dinner by Breakfast_.
+  link: https://storage.googleapis.com/casey_site/Oliver's%20Theme%20(MASTER).mp3
+- title: A Chocolate Allergy
+  year: 2023
+  description: Music cue from the film _Dinner by Breakfast_.
+  link: https://storage.googleapis.com/casey_site/A%20Chocolate%20Allergy%20(MASTER).mp3
+- title: The Chase Begins
+  year: 2024
+  description: Music cue from the film _Maggie Campbell_.
+  link: https://storage.googleapis.com/casey_site/The%20Chase%20Begins%20(NEWMIX4).mp3
+- title: Bon Appétit
+  year: 2023
+  description: Music cue from the film, _Delirium_.
+  link: https://storage.googleapis.com/casey_site/Bon%20Appe%CC%81tit%20(MASTER).mp3
+- title: Madeline's Theme
+  year: 2023
+  description: Berklee College of Music assignment to create a new theme for the video game, _Celeste_.
+  link: https://storage.googleapis.com/casey_site/Madeline's%20Theme%20(MASTER).mp3
+- title: World Music Final Project
+  year: 2024
+  description: Berklee College of Music final assignment for the World Music class.
+  link: https://storage.googleapis.com/casey_site/World%20Music%20Final%20Project.mp3
+  
+  
+  
