@@ -29,8 +29,7 @@ Use a better box model (opinionated).
 
 html {
   /* Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3) */
-  font-family:
-    "IBM Plex Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+  font-family: "IBM Plex Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
   font-optical-sizing: auto;
   line-height: 1.15; /* 1. Correct the line height in all browsers. */
@@ -68,8 +67,8 @@ code,
 kbd,
 samp,
 pre {
-  font-family:
-    ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; /* 1 */
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+    monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -288,7 +287,6 @@ summary {
 }
 
 .container > h1 {
-  font-family: "EB Garamond", Garamond, serif;
   margin-bottom: 0.5rem;
 }
 
