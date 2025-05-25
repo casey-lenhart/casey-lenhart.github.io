@@ -286,12 +286,24 @@ summary {
   padding: 2rem;
 }
 
+.video-container {
+  max-width: 64rem;
+}
+
 .container > h1 {
   margin-bottom: 0.5rem;
 }
 
 .container > p {
   margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container > p > img {
+  margin-top: 3em;
+  max-height: 360px;
+  max-width: 100%;
 }
 
 #audio-player {
@@ -302,13 +314,13 @@ summary {
 }
 
 #audio-tracklist {
-  margin-top: 0.5em;
 }
 
 .audio-track {
   display: flex;
   cursor: pointer;
-  margin-bottom: 1em;
+  padding: 0.5em 0;
+  margin-bottom: 0.5em;
 }
 
 #video-collection {

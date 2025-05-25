@@ -1,20 +1,55 @@
-{{ define "main" }}
-{{ $videos := ($.Resources.Get "video.yaml") | transform.Unmarshal }}
-<div class="container">
+{{ define "main" }} {{ $videos := ($.Resources.Get "video.yaml")
+|transform.Unmarshal }}
+<div class="container video-container">
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   <div id="video-collection">
     {{ range $videos }}
-      <div>
-        <div style="border: 1px solid seagreen; border-radius: 1em; padding: 1em;">
-          <div style="aspect-ratio: 16 / 9;"></div>
-          <p><b>{{ .title }}</b></p>
+    <div>
+      <div
+        style="
+          border: 1px solid seagreen;
+          border-radius: 1rem;
+          overflow: hidden;
+        "
+      >
+        <div style="aspect-ratio: 16 / 9">
+          {{ if strings.Contains .link "youtube" }} {{ $src := replace .link
+          "/watch?v=" "/embed/" }}
+          <iframe
+            src="{{ $src }}"
+            width="100%"
+            height="100%"
+            title="YouTube video player"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          {{ else if strings.Contains .link "vimeo" }} {{ $src := index
+          ((strings.Split .link "/") | last 1) 0 }}
+          <iframe
+            src="https://player.vimeo.com/video/{{ $src }}"
+            frameborder="0"
+            style="width: 100%; height: 100%; background-color: black"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen
+          ></iframe>
+          {{ end }}
+        </div>
+        <div style="padding: 0.5rem 1rem 1rem 1rem">
+          <div>
+            <p>
+              <b style="margin-right: 0.25rem">{{ .title }}</b>
+              <span style="margin-right: 0.25rem; opacity: 0.6">•</span>
+              <span style="opacity: 0.6">{{ .year }}</span>
+            </p>
+          </div>
           <p style="font-size: 0.85em">{{ .description }}</p>
         </div>
       </div>
+    </div>
     {{ end }}
   </div>
-
 </div>
 
 {{ end }}

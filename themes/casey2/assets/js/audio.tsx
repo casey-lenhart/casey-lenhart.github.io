@@ -51,7 +51,7 @@ const Tracklist = (props: {
             <div
               style={{
                 position: "absolute",
-                inset: "-0.5em -1em",
+                inset: "0em -1em",
                 borderRadius: 999,
                 border: "1px solid seagreen",
               }}
