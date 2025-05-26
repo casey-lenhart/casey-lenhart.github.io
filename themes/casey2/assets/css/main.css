@@ -266,10 +266,13 @@ summary {
   align-items: center;
 }
 
+a {
+  text-decoration-line: none;
+  color: royalblue;
+}
+
 .header > li > a {
   margin: 0 auto;
-  color: royalblue;
-  text-decoration-line: none;
 }
 
 .header > li > a > svg {

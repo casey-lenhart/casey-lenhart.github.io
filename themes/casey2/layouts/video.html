@@ -44,7 +44,9 @@
               <span style="opacity: 0.6">{{ .year }}</span>
             </p>
           </div>
-          <p style="font-size: 0.85em">{{ .description }}</p>
+          <p style="font-size: 0.85em">
+            {{ .description | transform.Markdownify }}
+          </p>
         </div>
       </div>
     </div>
