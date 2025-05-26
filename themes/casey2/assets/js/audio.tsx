@@ -54,6 +54,8 @@ const Tracklist = (props: {
                 inset: "0em -1em",
                 borderRadius: 999,
                 border: "1px solid seagreen",
+                boxShadow:
+                  "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
               }}
             />
           ) : null}
