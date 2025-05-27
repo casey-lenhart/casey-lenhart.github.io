@@ -7,7 +7,7 @@ While at William and Mary, Casey took multiple courses/independent studies in fi
 
 Casey's graduate courses at Berklee included multiple classes in Orchestration, Film Scoring Technology, and Music Composition, as well as Video Game Scoring and Sync Music. While at Berklee, Casey grew his knowledge base/skills through his graduate courses, while also continuing to score/compose projects and collaborate with other composers, filmmakers, and creatives.
 
-Casey’s latest projects include the short film Maggie Campbell, premiered 2024 at the Virginia Screenwriters Showcase; Call Earl, which premiered at the Overlook Film Festival in 2025; and, a musical composition for the modern dance performance Moment by Moment by Aura Curiatlas And Human Landscape Dance that premiered at the Ampersand International Arts Festival in 2025.
+Casey’s latest projects include the short film _Maggie Campbell_, premiered 2024 at the Virginia Screenwriters Showcase; _Call Earl_, which premiered at the Overlook Film Festival in 2025; and, a musical composition for the modern dance performance _Moment by Moment_ by Aura Curiatlas And Human Landscape Dance that premiered at the Ampersand International Arts Festival in 2025.
 
 Casey loves composing/scoring across multiple genres – from comedy to horror to cartoons to experimental documentaries to gaming to live performances – all while building a community of collaborators.  He truly understand the importance of a good music composition/score, as it can help elevate stories and viewing experiences. He has many film scoring/composition influences, ranging from orchestral to electronic - and especially those who bring a grounding in musicianship and performance to their compositions/scores – a creative path he strives to emulate.
 
