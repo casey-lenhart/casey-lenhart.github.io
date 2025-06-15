@@ -331,7 +331,7 @@ a {
   gap: 1em;
 }
 
-@media (width <= 64rem) {
+@media (width <= 640px) {
   #main-content {
     display: block;
     margin-top: 4rem;
@@ -343,7 +343,7 @@ a {
   }
 }
 
-@media (width <= 48rem) {
+@media (width <= 480px) {
   #audio-player {
     grid-template-columns: repeat(1, minmax(0, 1fr));
     max-width: 32rem;
