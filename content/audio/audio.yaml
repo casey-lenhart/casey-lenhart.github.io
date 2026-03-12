@@ -1,7 +1,15 @@
+- title: Last Wishes
+  year: 2026
+  description: Music cue from the film, _Monday_.
+  link: https://storage.googleapis.com/casey_site/Last%20Wishes_MASTER3.mp3
 - title: Killer Crush
   year: 2025
   description: Main theme from the film, _Killer Crush_.
   link: https://storage.googleapis.com/casey_site/Killer%20Crush_MASTER3.mp3
+- title: Mondays
+  year: 2026
+  description: Main theme from the film, _Monday_.
+  link: https://storage.googleapis.com/casey_site/Mondays_MASTER2.mp3
 - title: Crashing With Love
   year: 2023
   description: Main theme from the film, _Crashing_.
@@ -10,6 +18,10 @@
   year: 2025
   description: Music cue from the film, _Mother She Made_.
   link: https://storage.googleapis.com/casey_site/How%20to%20Spread%20Mother's%20Love.mp3
+- title: Jasmine's Theme
+  year: 2026
+  description: Music cue from the film, _Monday_.
+  link: https://storage.googleapis.com/casey_site/Jasmine's%20Theme_MASTER2.mp3
 - title: Y2K
   year: 2025
   description: Music cue from the film, _Killer Crush_.
@@ -42,18 +54,6 @@
   year: 2024
   description: Unused cue for the film, _Untouchable_.
   link: https://storage.googleapis.com/casey_site/Itkins%20Get%20Results_MASTER_1.mp3
-- title: Schadenfreude
-  year: 2023
-  description: Music cue from the film, _Dinner by Breakfast_.
-  link: https://storage.googleapis.com/casey_site/Schadenfreude%20(MASTER).mp3
-- title: Oliver's Theme
-  year: 2023
-  description: Music cue from the film, _Dinner by Breakfast_.
-  link: https://storage.googleapis.com/casey_site/Oliver's%20Theme%20(MASTER).mp3
-- title: A Chocolate Allergy
-  year: 2023
-  description: Music cue from the film _Dinner by Breakfast_.
-  link: https://storage.googleapis.com/casey_site/A%20Chocolate%20Allergy%20(MASTER).mp3
 
 
   
