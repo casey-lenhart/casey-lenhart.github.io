@@ -2,6 +2,10 @@
   year: 2026
   description: Music cue from the film, _Monday_.
   link: https://storage.googleapis.com/casey_site/Last%20Wishes_MASTER3.mp3
+- title: BV & Harls
+  year: 2026
+  description: Credits theme for the web series, _Three Roommates_.
+  link: https://storage.googleapis.com/casey_site/Three%20Roommates%20CT%20(MASTER2).mp3
 - title: Killer Crush
   year: 2025
   description: Main theme from the film, _Killer Crush_.
@@ -10,6 +14,10 @@
   year: 2026
   description: Main theme from the film, _Monday_.
   link: https://storage.googleapis.com/casey_site/Mondays_MASTER2.mp3
+- title: Three Roommates
+  year: 2026
+  description: Opening theme for the web series, _Three Roommates_.
+  link: https://storage.googleapis.com/casey_site/Three%20Roommates%20OT%20(MASTER2).mp3
 - title: Crashing With Love
   year: 2023
   description: Main theme from the film, _Crashing_.
@@ -18,6 +26,10 @@
   year: 2025
   description: Music cue from the film, _Mother She Made_.
   link: https://storage.googleapis.com/casey_site/How%20to%20Spread%20Mother's%20Love.mp3
+- title: Existential Crisis Hour
+  year: 2026
+  description: Music cue from the web series, _Three Roommates_.
+  link: https://storage.googleapis.com/casey_site/Existential%20Crisis%20Hour_MASTER1.mp3
 - title: Jasmine's Theme
   year: 2026
   description: Music cue from the film, _Monday_.
@@ -30,30 +42,18 @@
   year: 2024
   description: Music cue from the film, _Call Earl_.
   link: https://storage.googleapis.com/casey_site/Hi%2C%20Earl!_MASTER1.mp3
+- title: Harley's Workout Mix
+  year: 2026
+  description: Music cue from the web series, _Three Roommates_.
+  link: https://storage.googleapis.com/casey_site/Harley's%20Workout%20Mix_MASTER1.mp3
 - title: Still Alive
   year: 2024
   description: "Collaboration with [Saniyé](https://www.letsplaysaniye.com/) for the SCL Musical Storytelling Series."
   link: https://storage.googleapis.com/casey_site/Still%20Alive.mp3
-- title: Golem Intro
-  year: 2025
-  description: Intro theme for the Golem D&D podcast.
-  link: https://storage.googleapis.com/casey_site/Golem%20Intro%202%20(master).mp3
-- title: New Year, New Me
-  year: 2025
-  description: Music cue from the film, _Killer Crush_.
-  link: https://storage.googleapis.com/casey_site/New%20Year%2C%20New%20Me_MASTER2.mp3
-- title: Taylor's Troubles
-  year: 2025
-  description: Music cue from the film, _Mother She Made_.
-  link: https://storage.googleapis.com/casey_site/Taylor's%20Troubles.mp3
 - title: Glory Days/Dueling Blades
   year: 2024
   description: Unused cue for the film, _Untouchable_.
   link: https://storage.googleapis.com/casey_site/Glory%20Days_Dueling%20Blades_MASTER1.mp3
-- title: Itkins Get Results
-  year: 2024
-  description: Unused cue for the film, _Untouchable_.
-  link: https://storage.googleapis.com/casey_site/Itkins%20Get%20Results_MASTER_1.mp3
 
 
   
