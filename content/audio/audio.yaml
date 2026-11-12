@@ -1,3 +1,15 @@
+- title: Less Shooting More Slicing
+  year: 2026
+  description: Music cue from the film, _CLERICAL ERROR_.
+  link: https://storage.googleapis.com/casey_site/Less%20Shooting%20More%20Slicing_MASTER1.mp3
+- title: Trussed Up
+  year: 2026
+  description: Music cue from the film, _Trussed_.
+  link: https://storage.googleapis.com/casey_site/Trussed%20Up_MASTER1.mp3
+- title: Empty Night
+  year: 2026
+  description: Music cue from the film, _Bleeding Me Dry_.
+  link: https://storage.googleapis.com/casey_site/Empty%20Night_MASTER2.mp3
 - title: Last Wishes
   year: 2026
   description: Music cue from the film, _Monday_.
@@ -6,10 +18,22 @@
   year: 2026
   description: Credits theme for the web series, _Three Roommates_.
   link: https://storage.googleapis.com/casey_site/Three%20Roommates%20CT%20(MASTER2).mp3
+- title: Larissa's Dance
+  year: 2026
+  description: Music cue from the film, _Bleeding Me Dry_.
+  link: https://storage.googleapis.com/casey_site/Larissa's%20Dance_MASTER1.mp3
+- title: Mateo's House Tour
+  year: 2026
+  description: Music cue from the film, _CLERICAL ERROR_.
+  link: https://storage.googleapis.com/casey_site/Mateo's%20House%20Tour_MASTER1.mp3
 - title: Killer Crush
   year: 2025
   description: Main theme from the film, _Killer Crush_.
   link: https://storage.googleapis.com/casey_site/Killer%20Crush_MASTER3.mp3
+- title: So Much for Being Bros
+  year: 2026
+  description: Music cue from the film, _Trussed_.
+  link: https://storage.googleapis.com/casey_site/So%20Much%20for%20Being%20Bros_MASTER1.mp3
 - title: Mondays
   year: 2026
   description: Main theme from the film, _Monday_.
@@ -30,30 +54,7 @@
   year: 2026
   description: Music cue from the web series, _Three Roommates_.
   link: https://storage.googleapis.com/casey_site/Existential%20Crisis%20Hour_MASTER1.mp3
-- title: Jasmine's Theme
-  year: 2026
-  description: Music cue from the film, _Monday_.
-  link: https://storage.googleapis.com/casey_site/Jasmine's%20Theme_MASTER2.mp3
-- title: Y2K
-  year: 2025
-  description: Music cue from the film, _Killer Crush_.
-  link: https://storage.googleapis.com/casey_site/Y2K_MASTER3.mp3
-- title: Hi, Earl!
-  year: 2024
-  description: Music cue from the film, _Call Earl_.
-  link: https://storage.googleapis.com/casey_site/Hi%2C%20Earl!_MASTER1.mp3
-- title: Harley's Workout Mix
-  year: 2026
-  description: Music cue from the web series, _Three Roommates_.
-  link: https://storage.googleapis.com/casey_site/Harley's%20Workout%20Mix_MASTER1.mp3
-- title: Still Alive
-  year: 2024
-  description: "Collaboration with [Saniyé](https://www.letsplaysaniye.com/) for the SCL Musical Storytelling Series."
-  link: https://storage.googleapis.com/casey_site/Still%20Alive.mp3
-- title: Glory Days/Dueling Blades
-  year: 2024
-  description: Unused cue for the film, _Untouchable_.
-  link: https://storage.googleapis.com/casey_site/Glory%20Days_Dueling%20Blades_MASTER1.mp3
+
 
 
   
